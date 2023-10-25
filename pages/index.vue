@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import SearchBar from "~/components/home/SearchBar.vue";
-import Carousel from "~/components/home/Carousel.vue";
 
 useHead({
   title: 'Trang chủ',
@@ -14,6 +12,6 @@ useHead({
 })
 </script>
 <template>
-  <Carousel/>
-  <SearchBar/>
+  <HomeCarousel/>
+  <HomeSearchBar/>
 </template>

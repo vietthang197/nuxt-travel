@@ -3,6 +3,7 @@ let isLoading = useState('isLoading', () => true)
 setInterval(() => {
   isLoading.value = false;
 }, 3000)
+
 </script>
 <template>
   <div role="status" class="w-full animate-pulse mt-8" v-if="isLoading">
