@@ -5,5 +5,10 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   modules: [
       '@nuxtjs/tailwindcss'
-  ]
+  ],
+  runtimeConfig: {
+    public: {
+      baseApiUrl: 'http://localhost:8090'
+    }
+    }
 })
