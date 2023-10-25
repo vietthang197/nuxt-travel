@@ -14,4 +14,5 @@ useHead({
 <template>
   <HomeCarousel/>
   <HomeSearchBar/>
+  <HomeContentPosts/>
 </template>
