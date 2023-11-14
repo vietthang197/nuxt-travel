@@ -6,6 +6,7 @@ export default defineNuxtConfig({
   modules: [
       '@nuxtjs/tailwindcss'
   ],
+// @ts-ignore
   runtimeConfig: {
     public: {
       baseApiUrl: 'http://localhost:8090'
